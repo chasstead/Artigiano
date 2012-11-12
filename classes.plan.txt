@@ -1,0 +1,21 @@
+A list of classes - note: detailed UMLs should be created, this is just me brainstorming what classes we need
+
+Database
+    DBWrapper - abstract
+        MySQLWrapper - extends DBWrapper
+
+Core
+    Functions - static
+    Uploads
+    Thumbnails
+    Validatior
+
+Shop
+    Product
+    Category
+    User
+    ShoppingCart
+    Shop
+    Payments
+    PostCodes
+
