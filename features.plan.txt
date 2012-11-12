@@ -1,0 +1,20 @@
+Feature list:
+
+    User registration system:
+        Login
+        Register
+        Change profile (password, address, email address)
+        Retrieve password
+        Deactivate account
+        Confirm email address
+        User priviliges (admin, moderators)
+        Post code/address lookup - needs to deny the user's address if they are outside the delivery zone
+
+    Ordering system:
+        Create, update, retrieve and delete products (price, name, description)
+        Create, update, retrieve and delete product categories (subcategory support?)
+        Shopping cart:
+            Add, edit and delete from shopping cart
+            Checkout and pay - payment gateway
+
+The payment gateway will store the user's credit card details and their billing address. I think we should not store any of that, only the users delivery address.
